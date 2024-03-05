@@ -1535,3 +1535,65 @@ LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable creat
 [2024.03.05-09.20.51:562][  1]LogAssetRegistry: AssetRegistryGather time 1.9199s: AssetDataDiscovery 0.2840s, AssetDataGather 1.5755s, StoreResults 0.0604s.
 [2024.03.05-09.20.51:611][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
 [2024.03.05-09.23.00:268][752]LogDerivedDataCache: C:/Users/Administrador/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:25.951 and deleted 237 files with total size 0 MiB and 235 empty folders. Scanned 13282 files in 15014 folders with total size 325 MiB.
+[2024.03.05-09.27.22:049][885]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2024.03.05-09.27.22:073][885]LogContentBrowser: Creating deferred item: NewWorld
+[2024.03.05-09.27.22:133][886]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2024.03.05-09.27.30:778][ 91]LogContentBrowser: Attempting asset rename: NewWorld -> NewWorld
+[2024.03.05-09.27.30:809][ 91]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.05-09.27.30:819][ 91]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.05-09.27.30:899][ 91]LogContentBrowser: End creating deferred item NewWorld
+[2024.03.05-09.27.32:477][116]LogObjectTools: Deleting 1 worlds: /Game/NewWorld.NewWorld
+[2024.03.05-09.27.32:477][116]LogObjectTools: Currently 1 active worlds: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.03.05-09.27.32:603][116]LogUObjectHash: Compacting FUObjectHashTables data took  14.86ms
+[2024.03.05-09.27.34:229][116]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.05-09.27.34:242][116]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2024.03.05-09.27.34:248][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.05-09.27.34:309][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.03.05-09.27.34:324][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.03.05-09.27.34:334][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.03.05-09.27.40:724][352]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.03.05-09.27.40:872][352]LogContentBrowser: Creating deferred item: NewFolder
+[2024.03.05-09.27.40:899][353]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.03.05-09.27.49:799][501]LogContentBrowser: Attempting asset rename: NewFolder -> TimesIsOut
+[2024.03.05-09.27.49:803][501]LogContentBrowser: End creating deferred item NewFolder
+[2024.03.05-09.28.12:960][968]LogContentBrowser: Attempting asset rename: TimesIsOut -> TimeIsOut
+[2024.03.05-09.28.18:013][ 84]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2024.03.05-09.28.18:027][ 84]LogContentBrowser: Creating deferred item: NewWorld
+[2024.03.05-09.28.18:090][ 86]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2024.03.05-09.28.39:908][451]LogContentBrowser: Attempting asset rename: NewWorld -> Nivell-1
+[2024.03.05-09.28.39:909][451]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.05-09.28.39:910][451]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.05-09.28.40:007][451]LogContentBrowser: End creating deferred item NewWorld
+[2024.03.05-09.28.43:404][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.03.05-09.28.45:096][509]LogSlate: Window 'Save Content' being destroyed
+[2024.03.05-09.28.45:113][509]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.05-09.28.45:190][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.03.05-09.28.45:224][509]LogSavePackage: Moving output files for package: /Game/TimeIsOut/Nivell-1
+[2024.03.05-09.28.45:224][509]LogSavePackage: Moving '../../../../../../Users/Administrador/Documents/Unreal Projects/nivells-TimeIsOut-2024-mq/nivell_1/Saved/Nivell-1A4E257FB4E196F9143A5C3B56569A50A.tmp' to '../../../../../../Users/Administrador/Documents/Unreal Projects/nivells-TimeIsOut-2024-mq/nivell_1/Content/TimeIsOut/Nivell-1.umap'
+[2024.03.05-09.28.45:234][509]LogFileHelpers: Saving map 'Nivell-1' took 0.058
+[2024.03.05-09.28.45:249][509]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 1.32 sec)
+[2024.03.05-09.28.45:251][509]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TimeIsOut/Nivell-1.Nivell-1
+[2024.03.05-09.28.45:255][509]Cmd: MAP LOAD FILE="../../../../../../Users/Administrador/Documents/Unreal Projects/nivells-TimeIsOut-2024-mq/nivell_1/Content/TimeIsOut/Nivell-1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.03.05-09.28.45:256][509]LightingResults: New page: Lighting Build
+[2024.03.05-09.28.45:258][509]LoadErrors: New page: Loading map: Nivell-1.umap
+[2024.03.05-09.28.45:327][509]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.05-09.28.45:332][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.05-09.28.45:349][509]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.03.05-09.28.45:352][509]MapCheck: New page: Map Check
+[2024.03.05-09.28.45:353][509]LightingResults: New page: Lighting Build
+[2024.03.05-09.28.45:359][509]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.05-09.28.45:393][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.03.05-09.28.45:398][509]LogWorld: UWorld::CleanupWorld for Nivell-1, bSessionEnded=true, bCleanupResources=true
+[2024.03.05-09.28.45:398][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.05-09.28.45:406][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.05-09.28.45:414][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.03.05-09.28.45:423][509]LogAudio: Display: Audio Device (ID: 1) registered with world 'Nivell-1'.
+[2024.03.05-09.28.45:424][509]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.05-09.28.45:427][509]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.05-09.28.45:429][509]LogAIModule: Creating AISystem for world Nivell-1
+[2024.03.05-09.28.45:521][509]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.05-09.28.45:537][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.03.05-09.28.45:540][509]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.05-09.28.45:542][509]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.255ms to complete.
+[2024.03.05-09.28.45:547][509]AssetCheck: New page: Asset Save: Nivell-1
+[2024.03.05-09.28.45:547][509]LogContentValidation: Display: Validating /Script/Engine.World /Game/TimeIsOut/Nivell-1.Nivell-1

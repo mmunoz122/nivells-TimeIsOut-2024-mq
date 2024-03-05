@@ -1597,3 +1597,135 @@ LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable creat
 [2024.03.05-09.28.45:542][509]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.255ms to complete.
 [2024.03.05-09.28.45:547][509]AssetCheck: New page: Asset Save: Nivell-1
 [2024.03.05-09.28.45:547][509]LogContentValidation: Display: Validating /Script/Engine.World /Game/TimeIsOut/Nivell-1.Nivell-1
+[2024.03.05-09.33.41:694][854]LogSlate: Window 'Content Browser' being destroyed
+[2024.03.05-09.33.41:712][854]LogSlate: Window 'Content Browser' being destroyed
+[2024.03.05-09.36.09:915][978]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.03.05-09.36.09:979][978]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.05-09.36.09:981][978]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.03.05-09.36.09:981][978]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.05-09.36.09:981][978]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.05-09.36.10:048][978]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.03.05-09.36.10:048][978]LogWorldPartition: Display: WorldPartition initialize took 66 ms (total: 181 ms)
+[2024.03.05-09.36.10:071][978]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.03.05-09.36.10:072][978]LightingResults: New page: Lighting Build
+[2024.03.05-09.36.10:072][978]LoadErrors: New page: Loading map: FirstPersonMap.umap
+[2024.03.05-09.36.10:117][978]LogWorld: UWorld::CleanupWorld for Nivell-1, bSessionEnded=true, bCleanupResources=true
+[2024.03.05-09.36.10:117][978]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.05-09.36.10:117][978]MapCheck: New page: Map Check
+[2024.03.05-09.36.10:117][978]LightingResults: New page: Lighting Build
+[2024.03.05-09.36.10:125][978]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.05-09.36.10:128][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.03.05-09.36.10:130][978]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.05-09.36.10:130][978]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.05-09.36.10:131][978]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.03.05-09.36.10:145][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.03.05-09.36.10:152][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.03.05-09.36.10:165][978]LogAudio: Display: Audio Device (ID: 1) registered with world 'FirstPersonMap'.
+[2024.03.05-09.36.10:167][978]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.05-09.36.10:167][978]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.05-09.36.10:168][978]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.03.05-09.36.10:168][978]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.03.05-09.36.10:168][978]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.05-09.36.10:168][978]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.05-09.36.10:202][978]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.03.05-09.36.10:202][978]LogWorldPartition: Display: WorldPartition initialize took 34 ms (total: 215 ms)
+[2024.03.05-09.36.10:238][978]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.05-09.36.10:245][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.03.05-09.36.10:248][978]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.05-09.36.10:251][978]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 3.002ms to complete.
+[2024.03.05-09.36.35:733][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.03.05-09.36.35:839][708]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.05-09.36.35:841][708]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TimeIsOut/Nivell-1.Nivell-1
+[2024.03.05-09.36.35:841][708]Cmd: MAP LOAD FILE="../../../../../../Users/Administrador/Documents/Unreal Projects/nivells-TimeIsOut-2024-mq/nivell_1/Content/TimeIsOut/Nivell-1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.03.05-09.36.35:841][708]LightingResults: New page: Lighting Build
+[2024.03.05-09.36.35:841][708]LoadErrors: New page: Loading map: Nivell-1.umap
+[2024.03.05-09.36.35:850][708]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.05-09.36.35:850][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.05-09.36.35:851][708]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.03.05-09.36.35:851][708]MapCheck: New page: Map Check
+[2024.03.05-09.36.35:851][708]LightingResults: New page: Lighting Build
+[2024.03.05-09.36.35:860][708]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.05-09.36.35:866][708]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2024.03.05-09.36.35:868][708]LogWorld: UWorld::CleanupWorld for Nivell-1, bSessionEnded=true, bCleanupResources=true
+[2024.03.05-09.36.35:868][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.05-09.36.35:876][708]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.03.05-09.36.35:884][708]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.03.05-09.36.35:886][708]LogAudio: Display: Audio Device (ID: 1) registered with world 'Nivell-1'.
+[2024.03.05-09.36.35:886][708]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.05-09.36.35:886][708]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.05-09.36.35:886][708]LogAIModule: Creating AISystem for world Nivell-1
+[2024.03.05-09.36.35:898][708]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.05-09.36.35:906][708]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.03.05-09.36.35:908][708]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.05-09.36.35:908][708]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.1ms to complete.
+[2024.03.05-09.36.56:536][390]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.05-09.36.56:537][390]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.03.05-09.36.56:537][390]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.05-09.36.56:537][390]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.05-09.36.56:538][390]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.03.05-09.36.56:538][390]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 216 ms)
+[2024.03.05-09.36.56:641][393]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.03.05-09.36.56:657][393]LogActorFactory: Actor Factory attempting to spawn World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.03.05-09.36.56:658][393]LogActorFactory: Actor Factory attempting to spawn World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.03.05-09.36.56:685][393]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.03.05-09.37.04:164][640]LogActorFactory: Actor Factory attempting to spawn World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.03.05-09.37.04:164][640]LogActorFactory: Actor Factory attempting to spawn World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.03.05-09.37.05:914][740]LogActorFactory: Actor Factory attempting to spawn World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.03.05-09.37.05:914][740]LogActorFactory: Actor Factory attempting to spawn World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.03.05-09.37.07:486][814]LogActorFactory: Actor Factory attempting to spawn World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.03.05-09.37.07:486][814]LogActorFactory: Actor Factory attempting to spawn World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.03.05-09.37.07:599][814]LogStreaming: Display: ULevelStreaming::RequestLevel(/Temp/Game/FirstPerson/Maps/FirstPersonMap_LevelInstance_d44aa2437a5aea72_0) is flushing async loading
+[2024.03.05-09.37.07:599][814]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2024.03.05-09.37.07:607][814]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=0, InitializeForMainWorld=0, InitializeForEditor=1, InitializeForGame=0)
+[2024.03.05-09.37.07:607][814]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.05-09.37.07:607][814]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = Editor, IsMainWorldPartition = 0, Location = V(X=-130.00, Y=-670.00, Z=-130.00), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.05-09.37.07:608][814]LogActorComponent: ReregisterComponent: (/Temp/Game/FirstPerson/Maps/FirstPersonMap_LevelInstance_d44aa2437a5aea72_0.FirstPersonMap:PersistentLevel.Brush_0.BrushComponent0) Not currently registered. Aborting.
+[2024.03.05-09.37.07:611][814]LogUObjectGlobals: BeginLoad(/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/0M/LYKU8MRWM4BO3O1FDZBG2U) is flushing async loading
+[2024.03.05-09.37.07:637][814]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.03.05-09.37.07:640][814]LogActorComponent: ReregisterComponent: (/Temp/Game/FirstPerson/Maps/FirstPersonMap_LevelInstance_d44aa2437a5aea72_0.FirstPersonMap:PersistentLevel.PostProcessVolume_0.BrushComponent0) Not currently registered. Aborting.
+[2024.03.05-09.37.07:640][814]LogWorldPartition: Display: WorldPartition initialize took 33 ms (total: 250 ms)
+[2024.03.05-09.37.07:654][814]LogLevelInstance: Loaded 1 levels in 0.058 seconds
+[2024.03.05-09.38.21:745][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.03.05-09.38.24:131][825]LogSlate: Window 'Save Content' being destroyed
+[2024.03.05-09.38.24:140][825]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.03.05-09.38.24:140][825]LightingResults: New page: Lighting Build
+[2024.03.05-09.38.24:140][825]LoadErrors: New page: Loading map: FirstPersonMap.umap
+[2024.03.05-09.38.24:158][825]LogWorld: UWorld::CleanupWorld for Nivell-1, bSessionEnded=true, bCleanupResources=true
+[2024.03.05-09.38.24:158][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.05-09.38.24:160][825]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.03.05-09.38.24:161][825]LogActorComponent: ReregisterComponent: (/Temp/Game/FirstPerson/Maps/FirstPersonMap_LevelInstance_d44aa2437a5aea72_0.FirstPersonMap:PersistentLevel.PostProcessVolume_0.BrushComponent0) Not currently registered. Aborting.
+[2024.03.05-09.38.24:162][825]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.05-09.38.24:162][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.05-09.38.24:162][825]MapCheck: New page: Map Check
+[2024.03.05-09.38.24:162][825]LightingResults: New page: Lighting Build
+[2024.03.05-09.38.24:169][825]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.05-09.38.24:176][825]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.03.05-09.38.24:178][825]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.05-09.38.24:178][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.05-09.38.24:179][825]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.03.05-09.38.24:192][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.03.05-09.38.24:199][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.03.05-09.38.24:211][825]LogAudio: Display: Audio Device (ID: 1) registered with world 'FirstPersonMap'.
+[2024.03.05-09.38.24:211][825]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.05-09.38.24:211][825]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.05-09.38.24:212][825]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.03.05-09.38.24:212][825]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.03.05-09.38.24:212][825]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.05-09.38.24:212][825]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.05-09.38.24:244][825]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.03.05-09.38.24:244][825]LogWorldPartition: Display: WorldPartition initialize took 32 ms (total: 282 ms)
+[2024.03.05-09.38.24:270][825]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.05-09.38.24:280][825]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.03.05-09.38.24:283][825]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.05-09.38.24:284][825]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.459ms to complete.
+[2024.03.05-09.38.24:299][825]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.03.05-09.38.38:840][166]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.05-09.38.38:842][166]LogObjectTools: Deleting 1 worlds: /Game/TimeIsOut/Nivell-1.Nivell-1
+[2024.03.05-09.38.38:843][166]LogObjectTools: Currently 1 active worlds: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.03.05-09.38.38:849][166]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.03.05-09.38.40:254][166]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.05-09.38.40:262][166]LogWorld: UWorld::CleanupWorld for Nivell-1, bSessionEnded=true, bCleanupResources=true
+[2024.03.05-09.38.40:262][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.05-09.38.40:278][166]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.03.05-09.38.40:285][166]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.03.05-09.38.40:293][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
